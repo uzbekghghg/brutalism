@@ -3,17 +3,19 @@
   padding: 0;
   box-sizing: border-box;
   list-style: none;
+  text-decoration: none;
   outline: none;
-  border: 0;
+  border: none;
   font-family: var(--ff);
   font-weight: 400;
 }
+
 :root {
   --white: #f3f3f3;
   --ff: "Fustat", sans-serif;
-  --gray
-
+  --gray: #b5b5b5;
 }
+
 .container {
   max-width: 1140px;
   width: 100%;
