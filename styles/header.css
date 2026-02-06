@@ -188,3 +188,21 @@ justify-content: space-between;
     align-items: center;
   }
 }
+@media screen and (max-width:768px){
+  .about__wrap{
+    display: flex;
+    flex-direction: column;
+  }
+  .about__content{
+    max-width: none;
+  }
+  .about__content-desc{
+    max-width: none;
+  }
+  .about__img{
+    max-width: none;
+  }
+  .about__content-btm{
+    justify-content: flex-start;
+  }
+}
