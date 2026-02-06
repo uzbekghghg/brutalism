@@ -93,11 +93,57 @@
   overflow: hidden;
   word-break: break-all;
 }
-body{
+body {
   min-width: 320px;
   background: var(--bg);
   color: var(--white);
 }
+button {
+  background: transparent;
+}
+.about {
+  padding: 140px 0 162px;
+}
+.about__wrap {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+.about__content {
+  gap: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  max-width: 445px;
+  width: 100%;
+}
+.about__content-top {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.about__content-desc {
+  font-family: var(--ff);
+  font-weight: 500px;
+  font-style: Light;
+  font-size: 16px;
+  color: var(--gray);
+  max-width: 304px;
+  width: 100%;
+}
+.about__content-btm{
+  display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.about__img{
+  max-width: 540px;
+  width: 100%;
+}
+ .about__img img{
+  width: 100%;
+  height: 100%;
+ }
 @media screen and (max-width: 992px) {
   .header__wrap {
     flex: wrap;

@@ -25,3 +25,16 @@
   margin: 0 auto;
   padding: 0 15px;
 }
+.subTitle{
+font-family: var(--ff);
+color: var(--white);
+}
+.title{
+  font-family: "Fustat",sans-serif;
+font-weight: 500;
+
+font-size: 48px;
+
+
+
+}
